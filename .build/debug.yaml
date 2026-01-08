@@ -1,0 +1,147 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "AIWidget-arm64-apple-macosx26.0-debug.module": ["<AIWidget-arm64-apple-macosx26.0-debug.module>"]
+  "AIWidgetApp-arm64-apple-macosx26.0-debug.exe": ["<AIWidgetApp-arm64-apple-macosx26.0-debug.exe>"]
+  "AIWidgetExtension-arm64-apple-macosx26.0-debug.module": ["<AIWidgetExtension-arm64-apple-macosx26.0-debug.module>"]
+  "Models-arm64-apple-macosx26.0-debug.module": ["<Models-arm64-apple-macosx26.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "Services-arm64-apple-macosx26.0-debug.module": ["<Services-arm64-apple-macosx26.0-debug.module>"]
+  "main": ["<AIWidget-arm64-apple-macosx26.0-debug.module>","<AIWidgetApp-arm64-apple-macosx26.0-debug.exe>","<AIWidgetExtension-arm64-apple-macosx26.0-debug.module>","<Models-arm64-apple-macosx26.0-debug.module>","<Services-arm64-apple-macosx26.0-debug.module>"]
+  "test": ["<AIWidget-arm64-apple-macosx26.0-debug.module>","<AIWidgetApp-arm64-apple-macosx26.0-debug.exe>","<AIWidgetExtension-arm64-apple-macosx26.0-debug.module>","<Models-arm64-apple-macosx26.0-debug.module>","<Services-arm64-apple-macosx26.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp":
+    is-mutated: true
+commands:
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/AIWidgetApp.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/ContentView.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/SettingsView.swift"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources"]
+    description: "Write auxiliary file /Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources"
+
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp-entitlement.plist"]
+    description: "Write auxiliary file /Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp-entitlement.plist"
+
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/APIKeyManager.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/ClaudeService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/CursorService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/OpenAIService.swift.o"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp.product/Objects.LinkFileList"
+
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/AIWidgetExtension.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/TimelineProvider.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/WidgetView.swift"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources"]
+    description: "Write auxiliary file /Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources"
+
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/UsageData.swift"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources"]
+    description: "Write auxiliary file /Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources"
+
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/APIKeyManager.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/ClaudeService.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/CursorService.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/OpenAIService.swift"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources"]
+    description: "Write auxiliary file /Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources"
+
+  "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<AIWidget-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidget.swiftmodule"]
+    outputs: ["<AIWidget-arm64-apple-macosx26.0-debug.module>"]
+
+  "<AIWidgetApp-arm64-apple-macosx26.0-debug.exe>":
+    tool: phony
+    inputs: ["<AIWidgetApp-arm64-apple-macosx26.0-debug.exe-CodeSigning>"]
+    outputs: ["<AIWidgetApp-arm64-apple-macosx26.0-debug.exe>"]
+
+  "<AIWidgetExtension-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/AIWidgetExtension.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/TimelineProvider.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/WidgetView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidgetExtension.swiftmodule"]
+    outputs: ["<AIWidgetExtension-arm64-apple-macosx26.0-debug.module>"]
+
+  "<Models-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule"]
+    outputs: ["<Models-arm64-apple-macosx26.0-debug.module>"]
+
+  "<Services-arm64-apple-macosx26.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/APIKeyManager.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/ClaudeService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/CursorService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/OpenAIService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule"]
+    outputs: ["<Services-arm64-apple-macosx26.0-debug.module>"]
+
+  "C.AIWidget-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/AIWidgetApp.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/ContentView.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/SettingsView.swift","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidget.swiftmodule"]
+    description: "Compiling Swift Module 'AIWidget' (3 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","AIWidget","-emit-dependencies","-emit-module","-emit-module-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidget.swiftmodule","-output-file-map","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/output-file-map.json","-incremental","-c","@/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources","-I","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx12.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","AIWidget_main","-color-diagnostics","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.AIWidgetApp-arm64-apple-macosx26.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/APIKeyManager.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/ClaudeService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/CursorService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/OpenAIService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp.product/Objects.LinkFileList"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/AIWidgetApp"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug","-o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp","-module-name","AIWidgetApp","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_AIWidget_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx12.0","-Xlinker","-add_ast_path","-Xlinker","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidget.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.AIWidgetApp-arm64-apple-macosx26.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp-entitlement.plist"]
+    outputs: ["<AIWidgetApp-arm64-apple-macosx26.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/AIWidgetApp"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp-entitlement.plist","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp"]
+
+  "C.AIWidgetExtension-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/AIWidgetExtension.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/TimelineProvider.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/WidgetView.swift","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/AIWidgetExtension.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/TimelineProvider.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/WidgetView.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidgetExtension.swiftmodule"]
+    description: "Compiling Swift Module 'AIWidgetExtension' (3 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","AIWidgetExtension","-emit-dependencies","-emit-module","-emit-module-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidgetExtension.swiftmodule","-output-file-map","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources","-I","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx12.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/include/AIWidgetExtension-Swift.h","-color-diagnostics","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.Models-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/UsageData.swift","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule"]
+    description: "Compiling Swift Module 'Models' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","Models","-emit-dependencies","-emit-module","-emit-module-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule","-output-file-map","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources","-I","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx12.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/include/Models-Swift.h","-color-diagnostics","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "C.Services-arm64-apple-macosx26.0-debug.module":
+    tool: shell
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/APIKeyManager.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/ClaudeService.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/CursorService.swift","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/OpenAIService.swift","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources"]
+    outputs: ["/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/APIKeyManager.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/ClaudeService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/CursorService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/OpenAIService.swift.o","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule"]
+    description: "Compiling Swift Module 'Services' (4 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","Services","-emit-dependencies","-emit-module","-emit-module-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule","-output-file-map","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources","-I","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx12.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/include/Services-Swift.h","-color-diagnostics","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/","/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/","/Users/altur/Documents/GitHub/aiusedwidget/Package.swift","/Users/altur/Documents/GitHub/aiusedwidget/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

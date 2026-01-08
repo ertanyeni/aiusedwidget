@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/master.swiftdeps"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/UsageData.swift": {
+    "dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.d",
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.dia"
+  }
+}

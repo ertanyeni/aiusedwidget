@@ -1,0 +1,31 @@
+{
+  "": {
+    "dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/Services.d",
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/Services.o",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/master.swiftdeps"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/APIKeyManager.swift": {
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/APIKeyManager.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/APIKeyManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/APIKeyManager.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/APIKeyManager.dia"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/ClaudeService.swift": {
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/ClaudeService.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/ClaudeService~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/ClaudeService.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/ClaudeService.dia"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/CursorService.swift": {
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/CursorService.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/CursorService~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/CursorService.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/CursorService.dia"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/OpenAIService.swift": {
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/OpenAIService.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/OpenAIService~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/OpenAIService.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/Services.build/OpenAIService.dia"
+  }
+}

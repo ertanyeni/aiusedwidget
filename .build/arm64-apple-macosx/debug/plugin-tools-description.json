@@ -1,0 +1,938 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.AIWidget-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources",
+      "importPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/AIWidgetApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "AIWidget",
+      "moduleOutputPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidget.swiftmodule",
+      "objects" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "AIWidget_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidget.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/AIWidgetApp.swift",
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/ContentView.swift",
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/SettingsView.swift"
+      ],
+      "tempsPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AIWidgetExtension-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources",
+      "importPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/AIWidgetExtension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/TimelineProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/WidgetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AIWidgetExtension",
+      "moduleOutputPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidgetExtension.swiftmodule",
+      "objects" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/AIWidgetExtension.swift.o",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/TimelineProvider.swift.o",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/WidgetView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/include/AIWidgetExtension-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/AIWidgetExtension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/TimelineProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/WidgetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/AIWidgetExtension.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/AIWidgetExtension.swift",
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/TimelineProvider.swift",
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/WidgetView.swift"
+      ],
+      "tempsPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Models-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources",
+      "importPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/UsageData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Models",
+      "moduleOutputPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule",
+      "objects" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/include/Models-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Models.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/UsageData.swift"
+      ],
+      "tempsPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Services-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources",
+      "importPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/APIKeyManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/ClaudeService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/CursorService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/OpenAIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Services",
+      "moduleOutputPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule",
+      "objects" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/APIKeyManager.swift.o",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/ClaudeService.swift.o",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/CursorService.swift.o",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/OpenAIService.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/include/Services-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/APIKeyManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/ClaudeService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/CursorService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/OpenAIService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules/Services.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/APIKeyManager.swift",
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/ClaudeService.swift",
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/CursorService.swift",
+        "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/OpenAIService.swift"
+      ],
+      "tempsPath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "AIWidget" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AIWidget",
+      "-c",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/AIWidgetApp.swift",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/ContentView.swift",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/SettingsView.swift",
+      "-I",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "AIWidget_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "AIWidgetExtension" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "AIWidgetExtension",
+      "-c",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/AIWidgetExtension.swift",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/TimelineProvider.swift",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/WidgetView.swift",
+      "-I",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/include/AIWidgetExtension-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "Models" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Models",
+      "-c",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/UsageData.swift",
+      "-I",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/include/Models-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "Services" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Services",
+      "-c",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/APIKeyManager.swift",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/ClaudeService.swift",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/CursorService.swift",
+      "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/OpenAIService.swift",
+      "-I",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/include/Services-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "AIWidget" : [
+      "Models",
+      "Services"
+    ],
+    "AIWidgetExtension" : [
+      "Models",
+      "Services"
+    ],
+    "Models" : [
+
+    ],
+    "Services" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/AIWidgetApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/SettingsView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/sources"
+    },
+    "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp-entitlement.plist"
+    },
+    "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/UsageData.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/APIKeyManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/ClaudeService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/CursorService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/OpenAIService.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetApp.product/Objects.LinkFileList"
+    },
+    "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/AIWidgetExtension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/TimelineProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/WidgetView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/sources"
+    },
+    "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Models/UsageData.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Models.build/sources"
+    },
+    "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/APIKeyManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/ClaudeService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/CursorService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/Services/OpenAIService.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/Services.build/sources"
+    },
+    "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

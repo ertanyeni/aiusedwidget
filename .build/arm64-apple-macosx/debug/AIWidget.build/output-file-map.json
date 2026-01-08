@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/master.swiftdeps"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/AIWidgetApp.swift": {
+    "dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.d",
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/AIWidgetApp.dia"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/ContentView.swift": {
+    "dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.d",
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/ContentView.dia"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidget/SettingsView.swift": {
+    "dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.d",
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidget.build/SettingsView.dia"
+  }
+}

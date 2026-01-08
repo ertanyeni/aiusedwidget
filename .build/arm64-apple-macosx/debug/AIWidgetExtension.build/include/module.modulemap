@@ -1,0 +1,3 @@
+module AIWidgetExtension {
+    header "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/debug/AIWidgetExtension.build/include/AIWidgetExtension-Swift.h"
+}

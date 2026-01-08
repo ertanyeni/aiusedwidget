@@ -1,0 +1,25 @@
+{
+  "": {
+    "dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/AIWidgetExtension.d",
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/AIWidgetExtension.o",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/master.swiftdeps"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/AIWidgetExtension.swift": {
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/AIWidgetExtension.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/AIWidgetExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/AIWidgetExtension.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/AIWidgetExtension.dia"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/TimelineProvider.swift": {
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/TimelineProvider.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/TimelineProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/TimelineProvider.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/TimelineProvider.dia"
+  },
+  "/Users/altur/Documents/GitHub/aiusedwidget/AIWidget/Sources/AIWidgetExtension/WidgetView.swift": {
+    "object": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/WidgetView.swift.o",
+    "swiftmodule": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/WidgetView~partial.swiftmodule",
+    "swift-dependencies": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/WidgetView.swiftdeps",
+    "diagnostics": "/Users/altur/Documents/GitHub/aiusedwidget/.build/arm64-apple-macosx/release/AIWidgetExtension.build/WidgetView.dia"
+  }
+}
